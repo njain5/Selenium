@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber Demo" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOption.TestRunner" time="0.02">
+    <testsuite name="Feature: Application Login" time="0.02">
+      <testsuite name="Scenario: Home Page default Login" time="0.004">
+        <testcase name="Given User is on Net Banking landing Page" classname="Scenario: Home Page default Login" time="0.002"/>
+        <testcase name="When User log into Application with Username &quot;jin&quot; and Password &quot;1234&quot;" classname="Scenario: Home Page default Login" time="0.001"/>
+        <testcase name="Then Home page is populated" classname="Scenario: Home Page default Login" time="0.0"/>
+        <testcase name="And cards displayed are &quot;true&quot;" classname="Scenario: Home Page default Login" time="0.001"/>
+      </testsuite>
+      <testsuite name="Scenario: Home Page default Login" time="0.001">
+        <testcase name="Given User is on Net Banking landing Page" classname="Scenario: Home Page default Login" time="0.0"/>
+        <testcase name="When User log into Application with Username &quot;john&quot; and Password &quot;5676&quot;" classname="Scenario: Home Page default Login" time="0.0"/>
+        <testcase name="Then Home page is populated" classname="Scenario: Home Page default Login" time="0.001"/>
+        <testcase name="And cards displayed are &quot;false&quot;" classname="Scenario: Home Page default Login" time="0.0"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

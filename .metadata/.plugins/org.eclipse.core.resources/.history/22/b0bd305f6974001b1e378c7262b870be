@@ -1,0 +1,6 @@
+Feature: Application Login
+Scenario: Home Page default Login
+Given User is on landing Page
+When User log into Application with Username and Password
+Then Home page is populated
+And cards are displayed on the page

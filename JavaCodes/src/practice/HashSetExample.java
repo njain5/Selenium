@@ -1,0 +1,35 @@
+package practice;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Hashset, treeset and linkedhashset implements Set Interface
+		//Set does not accept duplicate values, while List can.
+		//Its an unordered collection, No sequence of elements stored, its random.
+		HashSet<String> hs = new HashSet<String>();
+		hs.add("RJ");
+		hs.add("MH");
+		hs.add("UK");
+		hs.add("UP");
+		
+		Iterator<String> it = hs.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+		
+		System.out.println(hs);
+		hs.add("MH"); //add duplicate, it will get rejected. count will not increase
+		System.out.println(hs);
+		System.out.println(hs.isEmpty());
+		System.out.println(hs.size());
+		hs.remove("UP");
+		
+
+	}
+
+}

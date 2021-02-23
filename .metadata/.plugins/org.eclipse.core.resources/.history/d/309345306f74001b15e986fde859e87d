@@ -1,0 +1,24 @@
+package stepDefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class stepDefinition {
+	
+	@Given("^User is on Net Banking landing Page$")
+	public void User_is_on_Net_Banking_landing_Page() {
+		
+	}
+	
+	@When("^User log into Application with Username and Password$")
+	public void User_log_into_Application_with_Username_and_Password() {
+		
+	}
+	
+	@Then("^Home page is populated$")
+	public void Home_page_is_populated() {
+		
+	}
+
+}
